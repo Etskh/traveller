@@ -1,0 +1,1561 @@
+[
+  {
+    "name": "strength"
+  },
+  {
+    "name": "dexterity"
+  },
+  {
+    "name": "endurence"
+  },
+  {
+    "name": "intellect"
+  },
+  {
+    "name": "education"
+  },
+  {
+    "name": "social"
+  },
+  {
+    "name": "str",
+    "transformer": {
+      "getmod": [
+        "strength"
+      ]
+    }
+  },
+  {
+    "name": "dex",
+    "transformer": {
+      "getmod": [
+        "dexterity"
+      ]
+    }
+  },
+  {
+    "name": "end",
+    "transformer": {
+      "getmod": [
+        "endurence"
+      ]
+    }
+  },
+  {
+    "name": "int",
+    "transformer": {
+      "getmod": [
+        "intellect"
+      ]
+    }
+  },
+  {
+    "name": "edu",
+    "transformer": {
+      "getmod": [
+        "education"
+      ]
+    }
+  },
+  {
+    "name": "soc",
+    "transformer": {
+      "getmod": [
+        "social"
+      ]
+    }
+  },
+  {
+    "name": "skill.ranks:admin"
+  },
+  {
+    "name": "skill.ranks:advocate"
+  },
+  {
+    "name": "skill.ranks:animals"
+  },
+  {
+    "name": "skill.ranks:athletics"
+  },
+  {
+    "name": "skill.ranks:art"
+  },
+  {
+    "name": "skill.ranks:astrogation"
+  },
+  {
+    "name": "skill.ranks:battle dress"
+  },
+  {
+    "name": "skill.ranks:broker"
+  },
+  {
+    "name": "skill.ranks:carouse"
+  },
+  {
+    "name": "skill.ranks:comms"
+  },
+  {
+    "name": "skill.ranks:computers"
+  },
+  {
+    "name": "skill.ranks:deception"
+  },
+  {
+    "name": "skill.ranks:diplomat"
+  },
+  {
+    "name": "skill.ranks:drive"
+  },
+  {
+    "name": "skill.ranks:engineer"
+  },
+  {
+    "name": "skill.ranks:explosives"
+  },
+  {
+    "name": "skill.ranks:flyer"
+  },
+  {
+    "name": "skill.ranks:engineer"
+  },
+  {
+    "name": "skill.ranks:gambler"
+  },
+  {
+    "name": "skill.ranks:gunner"
+  },
+  {
+    "name": "skill.ranks:gun combat"
+  },
+  {
+    "name": "skill.ranks:heavy weapons"
+  },
+  {
+    "name": "skill.ranks:investigate"
+  },
+  {
+    "name": "skill.ranks:jack of all trades"
+  },
+  {
+    "name": "skill.ranks:language"
+  },
+  {
+    "name": "skill.ranks:leadership"
+  },
+  {
+    "name": "skill.ranks:mechanic"
+  },
+  {
+    "name": "skill.ranks:medic"
+  },
+  {
+    "name": "skill.ranks:melee"
+  },
+  {
+    "name": "skill.ranks:navigation"
+  },
+  {
+    "name": "skill.ranks:persuade"
+  },
+  {
+    "name": "skill.ranks:pilot"
+  },
+  {
+    "name": "skill.ranks:recon"
+  },
+  {
+    "name": "skill.ranks:remote operations"
+  },
+  {
+    "name": "skill.ranks:science (physical)"
+  },
+  {
+    "name": "skill.ranks:science (life)"
+  },
+  {
+    "name": "skill.ranks:science (social)"
+  },
+  {
+    "name": "skill.ranks:science (space)"
+  },
+  {
+    "name": "skill.ranks:science (space)"
+  },
+  {
+    "name": "skill.ranks:seafarer"
+  },
+  {
+    "name": "skill.ranks:sensors"
+  },
+  {
+    "name": "skill.ranks:stealth"
+  },
+  {
+    "name": "skill.ranks:steward"
+  },
+  {
+    "name": "skill.ranks:streetwise"
+  },
+  {
+    "name": "skill.ranks:survival"
+  },
+  {
+    "name": "skill.ranks:tactics"
+  },
+  {
+    "name": "skill.ranks:trade"
+  },
+  {
+    "name": "skill.ranks:vacc suit"
+  },
+  {
+    "name": "skill.ranks:zero-g"
+  },
+  {
+    "name": "skill:admin",
+    "transformer": {
+      "skill": [
+        "skill.ranks:admin"
+      ]
+    }
+  },
+  {
+    "name": "skill:advocate",
+    "transformer": {
+      "skill": [
+        "skill.ranks:advocate"
+      ]
+    }
+  },
+  {
+    "name": "skill:animals",
+    "transformer": {
+      "skill": [
+        "skill.ranks:animals"
+      ]
+    }
+  },
+  {
+    "name": "skill:athletics",
+    "transformer": {
+      "skill": [
+        "skill.ranks:athletics"
+      ]
+    }
+  },
+  {
+    "name": "skill:art",
+    "transformer": {
+      "skill": [
+        "skill.ranks:art"
+      ]
+    }
+  },
+  {
+    "name": "skill:astrogation",
+    "transformer": {
+      "skill": [
+        "skill.ranks:astrogation"
+      ]
+    }
+  },
+  {
+    "name": "skill:battle dress",
+    "transformer": {
+      "skill": [
+        "skill.ranks:battle dress"
+      ]
+    }
+  },
+  {
+    "name": "skill:broker",
+    "transformer": {
+      "skill": [
+        "skill.ranks:broker"
+      ]
+    }
+  },
+  {
+    "name": "skill:carouse",
+    "transformer": {
+      "skill": [
+        "skill.ranks:carouse"
+      ]
+    }
+  },
+  {
+    "name": "skill:comms",
+    "transformer": {
+      "skill": [
+        "skill.ranks:comms"
+      ]
+    }
+  },
+  {
+    "name": "skill:computers",
+    "transformer": {
+      "skill": [
+        "skill.ranks:computers"
+      ]
+    }
+  },
+  {
+    "name": "skill:deception",
+    "transformer": {
+      "skill": [
+        "skill.ranks:deception"
+      ]
+    }
+  },
+  {
+    "name": "skill:diplomat",
+    "transformer": {
+      "skill": [
+        "skill.ranks:diplomat"
+      ]
+    }
+  },
+  {
+    "name": "skill:drive",
+    "transformer": {
+      "skill": [
+        "skill.ranks:drive"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer",
+    "transformer": {
+      "skill": [
+        "skill.ranks:engineer"
+      ]
+    }
+  },
+  {
+    "name": "skill:explosives",
+    "transformer": {
+      "skill": [
+        "skill.ranks:explosives"
+      ]
+    }
+  },
+  {
+    "name": "skill:flyer",
+    "transformer": {
+      "skill": [
+        "skill.ranks:flyer"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer",
+    "transformer": {
+      "skill": [
+        "skill.ranks:engineer"
+      ]
+    }
+  },
+  {
+    "name": "skill:gambler",
+    "transformer": {
+      "skill": [
+        "skill.ranks:gambler"
+      ]
+    }
+  },
+  {
+    "name": "skill:gunner",
+    "transformer": {
+      "skill": [
+        "skill.ranks:gunner"
+      ]
+    }
+  },
+  {
+    "name": "skill:gun combat",
+    "transformer": {
+      "skill": [
+        "skill.ranks:gun combat"
+      ]
+    }
+  },
+  {
+    "name": "skill:heavy weapons",
+    "transformer": {
+      "skill": [
+        "skill.ranks:heavy weapons"
+      ]
+    }
+  },
+  {
+    "name": "skill:investigate",
+    "transformer": {
+      "skill": [
+        "skill.ranks:investigate"
+      ]
+    }
+  },
+  {
+    "name": "skill:jack of all trades",
+    "transformer": {
+      "skill": [
+        "skill.ranks:jack of all trades"
+      ]
+    }
+  },
+  {
+    "name": "skill:language",
+    "transformer": {
+      "skill": [
+        "skill.ranks:language"
+      ]
+    }
+  },
+  {
+    "name": "skill:leadership",
+    "transformer": {
+      "skill": [
+        "skill.ranks:leadership"
+      ]
+    }
+  },
+  {
+    "name": "skill:mechanic",
+    "transformer": {
+      "skill": [
+        "skill.ranks:mechanic"
+      ]
+    }
+  },
+  {
+    "name": "skill:medic",
+    "transformer": {
+      "skill": [
+        "skill.ranks:medic"
+      ]
+    }
+  },
+  {
+    "name": "skill:melee",
+    "transformer": {
+      "skill": [
+        "skill.ranks:melee"
+      ]
+    }
+  },
+  {
+    "name": "skill:navigation",
+    "transformer": {
+      "skill": [
+        "skill.ranks:navigation"
+      ]
+    }
+  },
+  {
+    "name": "skill:persuade",
+    "transformer": {
+      "skill": [
+        "skill.ranks:persuade"
+      ]
+    }
+  },
+  {
+    "name": "skill:pilot",
+    "transformer": {
+      "skill": [
+        "skill.ranks:pilot"
+      ]
+    }
+  },
+  {
+    "name": "skill:recon",
+    "transformer": {
+      "skill": [
+        "skill.ranks:recon"
+      ]
+    }
+  },
+  {
+    "name": "skill:remote operations",
+    "transformer": {
+      "skill": [
+        "skill.ranks:remote operations"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (physical)",
+    "transformer": {
+      "skill": [
+        "skill.ranks:science (physical)"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (life)",
+    "transformer": {
+      "skill": [
+        "skill.ranks:science (life)"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (social)",
+    "transformer": {
+      "skill": [
+        "skill.ranks:science (social)"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (space)",
+    "transformer": {
+      "skill": [
+        "skill.ranks:science (space)"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (space)",
+    "transformer": {
+      "skill": [
+        "skill.ranks:science (space)"
+      ]
+    }
+  },
+  {
+    "name": "skill:seafarer",
+    "transformer": {
+      "skill": [
+        "skill.ranks:seafarer"
+      ]
+    }
+  },
+  {
+    "name": "skill:sensors",
+    "transformer": {
+      "skill": [
+        "skill.ranks:sensors"
+      ]
+    }
+  },
+  {
+    "name": "skill:stealth",
+    "transformer": {
+      "skill": [
+        "skill.ranks:stealth"
+      ]
+    }
+  },
+  {
+    "name": "skill:steward",
+    "transformer": {
+      "skill": [
+        "skill.ranks:steward"
+      ]
+    }
+  },
+  {
+    "name": "skill:streetwise",
+    "transformer": {
+      "skill": [
+        "skill.ranks:streetwise"
+      ]
+    }
+  },
+  {
+    "name": "skill:survival",
+    "transformer": {
+      "skill": [
+        "skill.ranks:survival"
+      ]
+    }
+  },
+  {
+    "name": "skill:tactics",
+    "transformer": {
+      "skill": [
+        "skill.ranks:tactics"
+      ]
+    }
+  },
+  {
+    "name": "skill:trade",
+    "transformer": {
+      "skill": [
+        "skill.ranks:trade"
+      ]
+    }
+  },
+  {
+    "name": "skill:vacc suit",
+    "transformer": {
+      "skill": [
+        "skill.ranks:vacc suit"
+      ]
+    }
+  },
+  {
+    "name": "skill:zero-g",
+    "transformer": {
+      "skill": [
+        "skill.ranks:zero-g"
+      ]
+    }
+  },
+  {
+    "name": "skill:animals.riding",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:animals",
+        "skill.ranks:animals.riding"
+      ]
+    }
+  },
+  {
+    "name": "skill:animals.vetrinary",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:animals",
+        "skill.ranks:animals.vetrinary"
+      ]
+    }
+  },
+  {
+    "name": "skill:animals.training",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:animals",
+        "skill.ranks:animals.training"
+      ]
+    }
+  },
+  {
+    "name": "skill:animals.farming",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:animals",
+        "skill.ranks:animals.farming"
+      ]
+    }
+  },
+  {
+    "name": "skill:athletics.co-ordination",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:athletics",
+        "skill.ranks:athletics.co-ordination"
+      ]
+    }
+  },
+  {
+    "name": "skill:athletics.endurance",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:athletics",
+        "skill.ranks:athletics.endurance"
+      ]
+    }
+  },
+  {
+    "name": "skill:athletics.strength",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:athletics",
+        "skill.ranks:athletics.strength"
+      ]
+    }
+  },
+  {
+    "name": "skill:athletics.flying",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:athletics",
+        "skill.ranks:athletics.flying"
+      ]
+    }
+  },
+  {
+    "name": "skill:art.acting",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:art",
+        "skill.ranks:art.acting"
+      ]
+    }
+  },
+  {
+    "name": "skill:art.dance",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:art",
+        "skill.ranks:art.dance"
+      ]
+    }
+  },
+  {
+    "name": "skill:art.holography",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:art",
+        "skill.ranks:art.holography"
+      ]
+    }
+  },
+  {
+    "name": "skill:art.instrument",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:art",
+        "skill.ranks:art.instrument"
+      ]
+    }
+  },
+  {
+    "name": "skill:art.sculpting",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:art",
+        "skill.ranks:art.sculpting"
+      ]
+    }
+  },
+  {
+    "name": "skill:art.writing",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:art",
+        "skill.ranks:art.writing"
+      ]
+    }
+  },
+  {
+    "name": "skill:drive.hovercraft",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:drive",
+        "skill.ranks:drive.hovercraft"
+      ]
+    }
+  },
+  {
+    "name": "skill:drive.mole",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:drive",
+        "skill.ranks:drive.mole"
+      ]
+    }
+  },
+  {
+    "name": "skill:drive.tracked",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:drive",
+        "skill.ranks:drive.tracked"
+      ]
+    }
+  },
+  {
+    "name": "skill:drive.walker",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:drive",
+        "skill.ranks:drive.walker"
+      ]
+    }
+  },
+  {
+    "name": "skill:drive.wheeled",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:drive",
+        "skill.ranks:drive.wheeled"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer.m-drive",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:engineer",
+        "skill.ranks:engineer.m-drive"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer.j-drive",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:engineer",
+        "skill.ranks:engineer.j-drive"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer.electronics",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:engineer",
+        "skill.ranks:engineer.electronics"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer.life support",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:engineer",
+        "skill.ranks:engineer.life support"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer.power",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:engineer",
+        "skill.ranks:engineer.power"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer.airship",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:engineer",
+        "skill.ranks:engineer.airship"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer.grav",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:engineer",
+        "skill.ranks:engineer.grav"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer.rotor",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:engineer",
+        "skill.ranks:engineer.rotor"
+      ]
+    }
+  },
+  {
+    "name": "skill:engineer.wing",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:engineer",
+        "skill.ranks:engineer.wing"
+      ]
+    }
+  },
+  {
+    "name": "skill:gunner.turrets",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:gunner",
+        "skill.ranks:gunner.turrets"
+      ]
+    }
+  },
+  {
+    "name": "skill:gunner.ortillery",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:gunner",
+        "skill.ranks:gunner.ortillery"
+      ]
+    }
+  },
+  {
+    "name": "skill:gunner.screens",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:gunner",
+        "skill.ranks:gunner.screens"
+      ]
+    }
+  },
+  {
+    "name": "skill:gunner.capital weapons",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:gunner",
+        "skill.ranks:gunner.capital weapons"
+      ]
+    }
+  },
+  {
+    "name": "skill:gun combat.slug rifle",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:gun combat",
+        "skill.ranks:gun combat.slug rifle"
+      ]
+    }
+  },
+  {
+    "name": "skill:gun combat.slug pistol",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:gun combat",
+        "skill.ranks:gun combat.slug pistol"
+      ]
+    }
+  },
+  {
+    "name": "skill:gun combat.shotguns",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:gun combat",
+        "skill.ranks:gun combat.shotguns"
+      ]
+    }
+  },
+  {
+    "name": "skill:gun combat.energy rifle",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:gun combat",
+        "skill.ranks:gun combat.energy rifle"
+      ]
+    }
+  },
+  {
+    "name": "skill:gun combat.energy pistol",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:gun combat",
+        "skill.ranks:gun combat.energy pistol"
+      ]
+    }
+  },
+  {
+    "name": "skill:heavy weapons.launcher",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:heavy weapons",
+        "skill.ranks:heavy weapons.launcher"
+      ]
+    }
+  },
+  {
+    "name": "skill:heavy weapons.man portable artillery",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:heavy weapons",
+        "skill.ranks:heavy weapons.man portable artillery"
+      ]
+    }
+  },
+  {
+    "name": "skill:heavy weapons.field artillery",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:heavy weapons",
+        "skill.ranks:heavy weapons.field artillery"
+      ]
+    }
+  },
+  {
+    "name": "skill:melee.unarmed combat",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:melee",
+        "skill.ranks:melee.unarmed combat"
+      ]
+    }
+  },
+  {
+    "name": "skill:melee.blade",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:melee",
+        "skill.ranks:melee.blade"
+      ]
+    }
+  },
+  {
+    "name": "skill:melee.bludgeon",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:melee",
+        "skill.ranks:melee.bludgeon"
+      ]
+    }
+  },
+  {
+    "name": "skill:melee.natural attacks",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:melee",
+        "skill.ranks:melee.natural attacks"
+      ]
+    }
+  },
+  {
+    "name": "skill:pilot.small craft",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:pilot",
+        "skill.ranks:pilot.small craft"
+      ]
+    }
+  },
+  {
+    "name": "skill:pilot.spacecraft",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:pilot",
+        "skill.ranks:pilot.spacecraft"
+      ]
+    }
+  },
+  {
+    "name": "skill:pilot.capital ships",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:pilot",
+        "skill.ranks:pilot.capital ships"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (physical).physics",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (physical)",
+        "skill.ranks:science (physical).physics"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (physical).chemisty",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (physical)",
+        "skill.ranks:science (physical).chemisty"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (physical).electronics",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (physical)",
+        "skill.ranks:science (physical).electronics"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (life).biology",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (life)",
+        "skill.ranks:science (life).biology"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (life).cybernetics",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (life)",
+        "skill.ranks:science (life).cybernetics"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (life).genetics",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (life)",
+        "skill.ranks:science (life).genetics"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (life).psionicology",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (life)",
+        "skill.ranks:science (life).psionicology"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (social).archaeology",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (social)",
+        "skill.ranks:science (social).archaeology"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (social).economics",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (social)",
+        "skill.ranks:science (social).economics"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (social).history",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (social)",
+        "skill.ranks:science (social).history"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (social).linguistics",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (social)",
+        "skill.ranks:science (social).linguistics"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (social).philosophy",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (social)",
+        "skill.ranks:science (social).philosophy"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (social).psychology",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (social)",
+        "skill.ranks:science (social).psychology"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (social).sophontology",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (social)",
+        "skill.ranks:science (social).sophontology"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (space).planetology",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (space)",
+        "skill.ranks:science (space).planetology"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (space).robotics",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (space)",
+        "skill.ranks:science (space).robotics"
+      ]
+    }
+  },
+  {
+    "name": "skill:science (space).xenology",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:science (space)",
+        "skill.ranks:science (space).xenology"
+      ]
+    }
+  },
+  {
+    "name": "skill:seafarer.sail",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:seafarer",
+        "skill.ranks:seafarer.sail"
+      ]
+    }
+  },
+  {
+    "name": "skill:seafarer.submarine",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:seafarer",
+        "skill.ranks:seafarer.submarine"
+      ]
+    }
+  },
+  {
+    "name": "skill:seafarer.ocean ships",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:seafarer",
+        "skill.ranks:seafarer.ocean ships"
+      ]
+    }
+  },
+  {
+    "name": "skill:seafarer.motorboats",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:seafarer",
+        "skill.ranks:seafarer.motorboats"
+      ]
+    }
+  },
+  {
+    "name": "skill:tactics.military",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:tactics",
+        "skill.ranks:tactics.military"
+      ]
+    }
+  },
+  {
+    "name": "skill:tactics.naval",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:tactics",
+        "skill.ranks:tactics.naval"
+      ]
+    }
+  },
+  {
+    "name": "skill:trade.biologicals",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:trade",
+        "skill.ranks:trade.biologicals"
+      ]
+    }
+  },
+  {
+    "name": "skill:trade.civil engineering",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:trade",
+        "skill.ranks:trade.civil engineering"
+      ]
+    }
+  },
+  {
+    "name": "skill:trade.space construction",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:trade",
+        "skill.ranks:trade.space construction"
+      ]
+    }
+  },
+  {
+    "name": "skill:trade.hydroponics",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:trade",
+        "skill.ranks:trade.hydroponics"
+      ]
+    }
+  },
+  {
+    "name": "skill:trade.polymers",
+    "transformer": {
+      "spec-skill": [
+        "skill.ranks:trade",
+        "skill.ranks:trade.polymers"
+      ]
+    }
+  },
+  {
+    "name": "skill.ranks:animals.riding"
+  },
+  {
+    "name": "skill.ranks:animals.vetrinary"
+  },
+  {
+    "name": "skill.ranks:animals.training"
+  },
+  {
+    "name": "skill.ranks:animals.farming"
+  },
+  {
+    "name": "skill.ranks:athletics.co-ordination"
+  },
+  {
+    "name": "skill.ranks:athletics.endurance"
+  },
+  {
+    "name": "skill.ranks:athletics.strength"
+  },
+  {
+    "name": "skill.ranks:athletics.flying"
+  },
+  {
+    "name": "skill.ranks:art.acting"
+  },
+  {
+    "name": "skill.ranks:art.dance"
+  },
+  {
+    "name": "skill.ranks:art.holography"
+  },
+  {
+    "name": "skill.ranks:art.instrument"
+  },
+  {
+    "name": "skill.ranks:art.sculpting"
+  },
+  {
+    "name": "skill.ranks:art.writing"
+  },
+  {
+    "name": "skill.ranks:drive.hovercraft"
+  },
+  {
+    "name": "skill.ranks:drive.mole"
+  },
+  {
+    "name": "skill.ranks:drive.tracked"
+  },
+  {
+    "name": "skill.ranks:drive.walker"
+  },
+  {
+    "name": "skill.ranks:drive.wheeled"
+  },
+  {
+    "name": "skill.ranks:engineer.m-drive"
+  },
+  {
+    "name": "skill.ranks:engineer.j-drive"
+  },
+  {
+    "name": "skill.ranks:engineer.electronics"
+  },
+  {
+    "name": "skill.ranks:engineer.life support"
+  },
+  {
+    "name": "skill.ranks:engineer.power"
+  },
+  {
+    "name": "skill.ranks:engineer.airship"
+  },
+  {
+    "name": "skill.ranks:engineer.grav"
+  },
+  {
+    "name": "skill.ranks:engineer.rotor"
+  },
+  {
+    "name": "skill.ranks:engineer.wing"
+  },
+  {
+    "name": "skill.ranks:gunner.turrets"
+  },
+  {
+    "name": "skill.ranks:gunner.ortillery"
+  },
+  {
+    "name": "skill.ranks:gunner.screens"
+  },
+  {
+    "name": "skill.ranks:gunner.capital weapons"
+  },
+  {
+    "name": "skill.ranks:gun combat.slug rifle"
+  },
+  {
+    "name": "skill.ranks:gun combat.slug pistol"
+  },
+  {
+    "name": "skill.ranks:gun combat.shotguns"
+  },
+  {
+    "name": "skill.ranks:gun combat.energy rifle"
+  },
+  {
+    "name": "skill.ranks:gun combat.energy pistol"
+  },
+  {
+    "name": "skill.ranks:heavy weapons.launcher"
+  },
+  {
+    "name": "skill.ranks:heavy weapons.man portable artillery"
+  },
+  {
+    "name": "skill.ranks:heavy weapons.field artillery"
+  },
+  {
+    "name": "skill.ranks:melee.unarmed combat"
+  },
+  {
+    "name": "skill.ranks:melee.blade"
+  },
+  {
+    "name": "skill.ranks:melee.bludgeon"
+  },
+  {
+    "name": "skill.ranks:melee.natural attacks"
+  },
+  {
+    "name": "skill.ranks:pilot.small craft"
+  },
+  {
+    "name": "skill.ranks:pilot.spacecraft"
+  },
+  {
+    "name": "skill.ranks:pilot.capital ships"
+  },
+  {
+    "name": "skill.ranks:science (physical).physics"
+  },
+  {
+    "name": "skill.ranks:science (physical).chemisty"
+  },
+  {
+    "name": "skill.ranks:science (physical).electronics"
+  },
+  {
+    "name": "skill.ranks:science (life).biology"
+  },
+  {
+    "name": "skill.ranks:science (life).cybernetics"
+  },
+  {
+    "name": "skill.ranks:science (life).genetics"
+  },
+  {
+    "name": "skill.ranks:science (life).psionicology"
+  },
+  {
+    "name": "skill.ranks:science (social).archaeology"
+  },
+  {
+    "name": "skill.ranks:science (social).economics"
+  },
+  {
+    "name": "skill.ranks:science (social).history"
+  },
+  {
+    "name": "skill.ranks:science (social).linguistics"
+  },
+  {
+    "name": "skill.ranks:science (social).philosophy"
+  },
+  {
+    "name": "skill.ranks:science (social).psychology"
+  },
+  {
+    "name": "skill.ranks:science (social).sophontology"
+  },
+  {
+    "name": "skill.ranks:science (space).planetology"
+  },
+  {
+    "name": "skill.ranks:science (space).robotics"
+  },
+  {
+    "name": "skill.ranks:science (space).xenology"
+  },
+  {
+    "name": "skill.ranks:seafarer.sail"
+  },
+  {
+    "name": "skill.ranks:seafarer.submarine"
+  },
+  {
+    "name": "skill.ranks:seafarer.ocean ships"
+  },
+  {
+    "name": "skill.ranks:seafarer.motorboats"
+  },
+  {
+    "name": "skill.ranks:tactics.military"
+  },
+  {
+    "name": "skill.ranks:tactics.naval"
+  },
+  {
+    "name": "skill.ranks:trade.biologicals"
+  },
+  {
+    "name": "skill.ranks:trade.civil engineering"
+  },
+  {
+    "name": "skill.ranks:trade.space construction"
+  },
+  {
+    "name": "skill.ranks:trade.hydroponics"
+  },
+  {
+    "name": "skill.ranks:trade.polymers"
+  },
+  {
+    "name": "combat:ranged weapon.slug pistol",
+    "transformer": {
+      "combat": [
+        "dex",
+        "skill:gun combat.slug pistol"
+      ]
+    }
+  },
+  {
+    "name": "combat:ranged weapon.slug rifle",
+    "transformer": {
+      "combat": [
+        "dex",
+        "skill:gun combat.slug rifle"
+      ]
+    }
+  },
+  {
+    "name": "combat:ranged weapon.shotguns",
+    "transformer": {
+      "combat": [
+        "dex",
+        "skill:gun combat.shotguns"
+      ]
+    }
+  },
+  {
+    "name": "combat:ranged weapon.energy pistol",
+    "transformer": {
+      "combat": [
+        "dex",
+        "skill:gun combat.energy pistol"
+      ]
+    }
+  },
+  {
+    "name": "combat:ranged weapon.energy rifle",
+    "transformer": {
+      "combat": [
+        "dex",
+        "skill:gun combat.energy rifle"
+      ]
+    }
+  },
+  {
+    "name": "combat:ranged weapon.launcher",
+    "transformer": {
+      "combat": [
+        "dex",
+        "skill:heavy weapons.launcher"
+      ]
+    }
+  }
+]

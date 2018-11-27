@@ -1,0 +1,198 @@
+[
+  "admin",
+  "advocate",
+  {
+    "name": "animals",
+    "specialities": [
+      "riding",
+      "vetrinary",
+      "training",
+      "farming"
+    ]
+  },
+  {
+    "name": "athletics",
+    "specialities": [
+      "co-ordination",
+      "endurance",
+      "strength",
+      "flying"
+    ]
+  },
+  {
+    "name": "art",
+    "specialities": [
+      "acting",
+      "dance",
+      "holography",
+      "instrument",
+      "sculpting",
+      "writing"
+    ]
+  },
+  "astrogation",
+  "battle dress",
+  "broker",
+  "carouse",
+  "comms",
+  "computers",
+  "deception",
+  "diplomat",
+  {
+    "name": "drive",
+    "specialities": [
+      "hovercraft",
+      "mole",
+      "tracked",
+      "walker",
+      "wheeled"
+    ]
+  },
+  {
+    "name": "engineer",
+    "specialities": [
+      "m-drive",
+      "j-drive",
+      "electronics",
+      "life support",
+      "power"
+    ]
+  },
+  "explosives",
+  "flyer",
+  {
+    "name": "engineer",
+    "specialities": [
+      "airship",
+      "grav",
+      "rotor",
+      "wing"
+    ]
+  },
+  "gambler",
+  {
+    "name": "gunner",
+    "specialities": [
+      "turrets",
+      "ortillery",
+      "screens",
+      "capital weapons"
+    ]
+  },
+  {
+    "name": "gun combat",
+    "specialities": [
+      "slug rifle",
+      "slug pistol",
+      "shotguns",
+      "energy rifle",
+      "energy pistol"
+    ]
+  },
+  {
+    "name": "heavy weapons",
+    "specialities": [
+      "launcher",
+      "man portable artillery",
+      "field artillery"
+    ]
+  },
+  "investigate",
+  "jack of all trades",
+  "language",
+  "leadership",
+  "mechanic",
+  "medic",
+  {
+    "name": "melee",
+    "specialities": [
+      "unarmed combat",
+      "blade",
+      "bludgeon",
+      "natural attacks"
+    ]
+  },
+  "navigation",
+  "persuade",
+  {
+    "name": "pilot",
+    "specialities": [
+      "small craft",
+      "spacecraft",
+      "capital ships"
+    ]
+  },
+  "recon",
+  "remote operations",
+  {
+    "name": "science (physical)",
+    "specialities": [
+      "physics",
+      "chemisty",
+      "electronics"
+    ]
+  },
+  {
+    "name": "science (life)",
+    "specialities": [
+      "biology",
+      "cybernetics",
+      "genetics",
+      "psionicology"
+    ]
+  },
+  {
+    "name": "science (social)",
+    "specialities": [
+      "archaeology",
+      "economics",
+      "history",
+      "linguistics",
+      "philosophy",
+      "psychology",
+      "sophontology"
+    ]
+  },
+  "science (space)",
+  {
+    "name": "science (space)",
+    "specialities": [
+      "planetology",
+      "robotics",
+      "xenology"
+    ]
+  },
+  {
+    "name": "seafarer",
+    "specialities": [
+      "sail",
+      "submarine",
+      "ocean ships",
+      "motorboats"
+    ]
+  },
+  "sensors",
+  "stealth",
+  "steward",
+  "streetwise",
+  "survival",
+  {
+    "name": "tactics",
+    "specialities": [
+      "military",
+      "naval"
+    ]
+  },
+  {
+    "name": "trade",
+    "specialities": [
+      "biologicals",
+      "civil engineering",
+      "space construction",
+      "hydroponics",
+      "polymers"
+    ]
+  },
+  "vacc suit",
+  "zero-g"
+]
