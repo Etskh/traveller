@@ -80,6 +80,13 @@
       {
         "type": "add_number",
         "data": {
+          "name": "skill.ranks:heavy weapons",
+          "value": 1
+        }
+      },
+      {
+        "type": "add_number",
+        "data": {
           "name": "skill.ranks:language",
           "value": 1
         }

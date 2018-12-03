@@ -1,6 +1,7 @@
 
 // Render the skills as they are
 const fs = require('fs');
+const axios = require('axios');
 
 
 function getTransformers() {
@@ -27,11 +28,9 @@ function getSystem() {
     const systemStats = {
         combat: {
             'ranged weapon': {
-                'slug pistol': [ 'dex', 'skill:gun combat.slug pistol'],
-                'slug rifle': [ 'dex', 'skill:gun combat.slug rifle'],
+                'slug': [ 'dex', 'skill:gun combat.slug'],
                 'shotguns': [ 'dex', 'skill:gun combat.shotguns'],
-                'energy pistol': [ 'dex', 'skill:gun combat.energy pistol'],
-                'energy rifle': [ 'dex', 'skill:gun combat.energy rifle'],
+                'energy': [ 'dex', 'skill:gun combat.energy'],
                 'launcher': [ 'dex', 'skill:heavy weapons.launcher' ],
             },
         },
@@ -251,6 +250,7 @@ function getCharacterStats( actions, system, transformers ) {
 }
 
 
+
 class Character {
     constructor(data, system, transformers) {
         this.data = data;
@@ -278,15 +278,33 @@ class Character {
             },
             topSkills: topFiveSkills,
             combat: {
-                'slug pistol': this.getValue('combat:ranged weapon.slug pistol'),
-                'slug rifle': this.getValue('combat:ranged weapon.slug rifle'),
+                'slug': this.getValue('combat:ranged weapon.slug'),
+                'energy': this.getValue('combat:ranged weapon.energy'),
                 'launcher': this.getValue('combat:ranged weapon.launcher'),
             },
         };
     }
 
+    output() {
+        const outputPath = 'public/character-data.js';
+        const characterData = JSON.stringify({
+            name: this.data.name,
+            stats: this.stats,
+        }, null, 2);
+        const fileContent = `const CHARACTER_DATA = ${characterData};`;
+
+        fs.writeFile(outputPath, fileContent, () => {
+            console.log('Ouputed character data to ' + outputPath);
+        });
+    }
+
     getValue(name) {
-        return this.stats.find(s => s.name === name).value;
+        const skill = this.stats.find(s => s.name === name);
+        if( !skill ) {
+            console.error( name + ' cannot be found');
+            return 0;
+        }
+        return skill.value;
     }
 
     addPoints(name, value) {
@@ -304,18 +322,47 @@ class Character {
 
 
 function entry() {
+
     const data = getCharacterData();
     const system = getSystem();
     const transformers = getTransformers();
 
     const character = new Character(data, system, transformers);
 
-    console.log( character.getSummary());
-
     character.addPoints('skill.ranks:heavy weapons', 1);
-    character.addPoints('skill.ranks:gun combat.slug rifle', 1);
-    console.log( character.getSummary());
+    character.addPoints('skill.ranks:gun combat.slug', 1);
+
+    character.output();
+
+    console.log( character.getSummary() );
+
+    /*
+    function getWeaponData() {
+        const API_KEY = 'AIzaSyBV0ZnadrkNfdgnMb-9TNhWWBt4Ub1Og2E';
+        const spreadsheetId = '1o4NYkL7NC0_7lHtZbowL__K1EY3OTT0j9FXBvHO23aI';
+        const title = 'Weapons';
+        const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${title}`;
+
+        return axios.get(url, {
+            params: {
+                apiKey: API_KEY,
+            },
+        }).then( result => {
+            return result.data;
+        }).then( data => {
+            console.log(data);
+        }).catch( result => {
+            console.log(result.response.data.error);
+        });
+    }
+    getWeaponData().then( data => {
+        console.log(data);
+    });
+    */
 }
+
+
+// https://www.googleapis.com/auth/spreadsheets
 
 
 // Launch here

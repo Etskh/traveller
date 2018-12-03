@@ -893,74 +893,56 @@
     }
   },
   {
-    "name": "skill:gun combat.slug rifle",
+    "name": "skill:gun combat.slug",
     "transformer": {
       "spec-skill": [
         "skill.ranks:gun combat",
-        "skill.ranks:gun combat.slug rifle"
+        "skill.ranks:gun combat.slug"
       ]
     }
   },
   {
-    "name": "skill:gun combat.slug pistol",
+    "name": "skill:gun combat.energy",
     "transformer": {
       "spec-skill": [
         "skill.ranks:gun combat",
-        "skill.ranks:gun combat.slug pistol"
+        "skill.ranks:gun combat.energy"
       ]
     }
   },
   {
-    "name": "skill:gun combat.shotguns",
+    "name": "skill:gun combat.archaic",
     "transformer": {
       "spec-skill": [
         "skill.ranks:gun combat",
-        "skill.ranks:gun combat.shotguns"
+        "skill.ranks:gun combat.archaic"
       ]
     }
   },
   {
-    "name": "skill:gun combat.energy rifle",
-    "transformer": {
-      "spec-skill": [
-        "skill.ranks:gun combat",
-        "skill.ranks:gun combat.energy rifle"
-      ]
-    }
-  },
-  {
-    "name": "skill:gun combat.energy pistol",
-    "transformer": {
-      "spec-skill": [
-        "skill.ranks:gun combat",
-        "skill.ranks:gun combat.energy pistol"
-      ]
-    }
-  },
-  {
-    "name": "skill:heavy weapons.launcher",
+    "name": "skill:heavy weapons.man portable",
     "transformer": {
       "spec-skill": [
         "skill.ranks:heavy weapons",
-        "skill.ranks:heavy weapons.launcher"
+        "skill.ranks:heavy weapons.man portable"
       ]
     }
   },
   {
-    "name": "skill:heavy weapons.man portable artillery",
+    "name": "skill:heavy weapons.artillery",
     "transformer": {
       "spec-skill": [
         "skill.ranks:heavy weapons",
-        "skill.ranks:heavy weapons.man portable artillery"
+        "skill.ranks:heavy weapons.artillery"
       ]
     }
   },
   {
-    "name": "skill:heavy weapons.field artillery",
+    "name": "skill:heavy weapons.vehicle",
     "transformer": {
       "spec-skill": [
         "skill.ranks:heavy weapons",
-        "skill.ranks:heavy weapons.field artillery"
+        "skill.ranks:heavy weapons.vehicle"
       ]
     }
   },
@@ -1376,28 +1358,22 @@
     "name": "skill.ranks:gunner.capital weapons"
   },
   {
-    "name": "skill.ranks:gun combat.slug rifle"
+    "name": "skill.ranks:gun combat.slug"
   },
   {
-    "name": "skill.ranks:gun combat.slug pistol"
+    "name": "skill.ranks:gun combat.energy"
   },
   {
-    "name": "skill.ranks:gun combat.shotguns"
+    "name": "skill.ranks:gun combat.archaic"
   },
   {
-    "name": "skill.ranks:gun combat.energy rifle"
+    "name": "skill.ranks:heavy weapons.man portable"
   },
   {
-    "name": "skill.ranks:gun combat.energy pistol"
+    "name": "skill.ranks:heavy weapons.artillery"
   },
   {
-    "name": "skill.ranks:heavy weapons.launcher"
-  },
-  {
-    "name": "skill.ranks:heavy weapons.man portable artillery"
-  },
-  {
-    "name": "skill.ranks:heavy weapons.field artillery"
+    "name": "skill.ranks:heavy weapons.vehicle"
   },
   {
     "name": "skill.ranks:melee.unarmed combat"
@@ -1505,20 +1481,11 @@
     "name": "skill.ranks:trade.polymers"
   },
   {
-    "name": "combat:ranged weapon.slug pistol",
+    "name": "combat:ranged weapon.slug",
     "transformer": {
       "combat": [
         "dex",
-        "skill:gun combat.slug pistol"
-      ]
-    }
-  },
-  {
-    "name": "combat:ranged weapon.slug rifle",
-    "transformer": {
-      "combat": [
-        "dex",
-        "skill:gun combat.slug rifle"
+        "skill:gun combat.slug"
       ]
     }
   },
@@ -1532,20 +1499,11 @@
     }
   },
   {
-    "name": "combat:ranged weapon.energy pistol",
+    "name": "combat:ranged weapon.energy",
     "transformer": {
       "combat": [
         "dex",
-        "skill:gun combat.energy pistol"
-      ]
-    }
-  },
-  {
-    "name": "combat:ranged weapon.energy rifle",
-    "transformer": {
-      "combat": [
-        "dex",
-        "skill:gun combat.energy rifle"
+        "skill:gun combat.energy"
       ]
     }
   },

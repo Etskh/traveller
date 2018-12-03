@@ -82,19 +82,17 @@
   {
     "name": "gun combat",
     "specialities": [
-      "slug rifle",
-      "slug pistol",
-      "shotguns",
-      "energy rifle",
-      "energy pistol"
+      "slug",
+      "energy",
+      "archaic"
     ]
   },
   {
     "name": "heavy weapons",
     "specialities": [
-      "launcher",
-      "man portable artillery",
-      "field artillery"
+      "man portable",
+      "artillery",
+      "vehicle"
     ]
   },
   "investigate",
